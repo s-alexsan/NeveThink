@@ -1,3 +1,81 @@
 {
-    "version": 1
+    "version": 1,
+    "appBar": {
+        "title": "NeverThink",
+        "centerTitle": true,
+        "actions": {
+            "class": "Icon",
+            "value": "0xe047",
+            "size": 30.0
+        }
+    },
+    "body": {
+        "padding": {
+            "l": 8.0,
+            "t": 8.0,
+            "r": 8.0,
+            "b": 8.0
+        },
+        "children": [
+            {
+                "class": "Card",
+                "child": {
+                    "class": "ListTile",
+                    "title": {
+                        "class": "Text",
+                        "value": "Alexsander da Silva"
+                    },
+                    "subtitle": {
+                        "class": "Column",
+                        "value": [
+                            {
+                                "class": "SizedBox",
+                                "height": 100.0,
+                                "child": {
+                                    "class": "Text",
+                                    "value": "Publicação 1"
+                                }
+                            },
+                            {
+                                "class": "Row",
+                                "value": [
+                                    {
+                                    "class": "Padding",
+                                    "l":8.0,"t":0.0,"r":8.0,"b":0.0,
+                                    "child": 
+                                        {
+                                            "class": "Icon",
+                                            "value": "0xf0232"
+                                        }
+                                    },
+                                    {
+                                    "class": "Padding",
+                                    "l":8.0,"t":0.0,"r":8.0,"b":0.0,
+                                    "child": 
+                                        {
+                                            "class": "Icon",
+                                            "value": "0xe17e"
+                                        }
+                                    },
+                                    {
+                                    "class": "Padding",
+                                    "l":8.0,"t":0.0,"r":8.0,"b":0.0,
+                                    "child": 
+                                        {
+                                            "class": "Icon",
+                                            "value": "0xf0147"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "class": "Text",
+                "value": "Teste2"
+            }
+        ]
+    }
 }
